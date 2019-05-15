@@ -9,7 +9,7 @@ public static int[][] ticbox;
 		//loop through rows from 0 to 3 and check if all the 3 places have same marks
  		
 		
-		//check all cols
+		//check all columns
 		//loop through columns from 0 to 3 and check if all the 3 places have same marks
  		
 		//check both diagonals 
@@ -23,7 +23,7 @@ public static int[][] ticbox;
 				return 1;
 			if (tic[row][0] == 2 && tic[row][1] == 2 && tic[row][2] == 2)
 				return 2;
-        }
+		}
 
 		for (int col = 0; col < 3; col++) 
 		{
@@ -84,8 +84,7 @@ public static int[][] ticbox;
 		 int chk = win(ticbox);
 
 		boolean turn= true;
-		int limit;
-		limit = 9;
+		int limit = 9;
 		while(chk==0 && limit > 0) {
 			//if true player 1	
 			if(turn) {
