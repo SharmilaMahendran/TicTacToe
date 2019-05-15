@@ -84,7 +84,8 @@ public static int[][] ticbox;
 		 int chk = win(ticbox);
 
 		boolean turn= true;
-		int limit = 9;
+		int limit;
+		limit = 9;
 		while(chk==0 && limit > 0) {
 			//if true player 1	
 			if(turn) {
