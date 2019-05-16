@@ -81,7 +81,8 @@ public static int[][] ticbox;
 			}
 		}
 		
-		 int chk = win(ticbox);
+		 int chk;
+		 chk = win(ticbox);
 
 		boolean turn= true;
 		int limit;
